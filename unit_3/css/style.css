@@ -1,10 +1,11 @@
+
 * {
 	margin: 0;
 	box-sizing: border-box;
 }
 
 body {
-	background-color: #e5e5e5;
+	background-color: #93b6b1;
 	text-align: center;
 	font-weight: normal; 
 	font-family: Raleway, sans-serif; 
@@ -47,12 +48,12 @@ img {
 }
 
 .blue {
-	background-color: blue;
+	background-color: #e5e5e5;
 	height:800px;
 }
 
 .green {
-	background-color: green;
+	background-color: #5b5553;
 	height:800px;
 }
 
