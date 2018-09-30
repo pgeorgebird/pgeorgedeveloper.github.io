@@ -56,12 +56,10 @@ img {
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: right;
-
-
 }
 .green {
 	background-color: #4E6979;
-	height:800px;
+	height:500px;
 	font-family: Raleway, sans-serif;
 }
 .yellow {
