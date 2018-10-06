@@ -56,7 +56,7 @@ img {
 }
 
 .red {
-	background-color: #ffffff;
+	background-color: #8FADAC;
 	height:400px;
 	font-family: Raleway, serif;
 	font-size:40px;
@@ -74,7 +74,7 @@ img {
 	padding: 160px;
 }
 .green {
-	background-color: #81ADAC;
+	background-color: #8FADAC;
 	height:500px;
 	font-family: Raleway, sans-serif;
 	border: 1px black solid;
@@ -85,13 +85,13 @@ img {
 	font-family: Raleway, sans-serif;
 	border: 1px black solid;
 	padding: 20px;
-	background-color: #81ADAC;
+	background-color: #8FADAC;
 }
 .blue {
 	height:400px;
 	font-family: Raleway, sans-serif;
 	border: 1px black solid;
 	padding: 20px;
-	background-color: #81ADAC;
+	background-color: #8FADAC;
 }
 
