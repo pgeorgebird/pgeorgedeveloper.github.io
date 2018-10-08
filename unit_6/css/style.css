@@ -1,0 +1,141 @@
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-weight: normal; 
+	font-family: Raleway, sans-serif; 
+}
+header {
+	height: 800px;
+	background-image: url('../images/picture2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: left;
+	border: 1px black solid;
+	padding: 250px;
+	box-sizing: border-box;
+}
+nav {
+	font-family: Raleway, sans-serif;
+	background-color: #8FADAC;
+
+
+}
+a{
+	background-color: green;
+	color: yellow;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	width: 200px; 
+	font-size: 18px;
+
+
+}
+a:hover {
+	background-color: red;
+}
+h1 {
+	color: #191919;
+	font-size: 40px; 
+}
+h2 {
+	color: #EEF4FF;
+	font-size: 30px;
+	
+}
+p {
+	color: #191919;
+	font-style: 
+	font-size: 24px;
+		
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	font-size: 24px;
+
+
+}
+li {
+	color: #191919;
+
+}
+img {
+	width:25%;
+}
+
+.red {
+	background-color: #8FADAC;
+	height:400px;
+	font-family: Raleway, serif;
+	font-size:40px;
+	border: 1px black solid;
+
+}
+.hero {
+	height: 500px;
+	background-image: url('../images/picture1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: right;
+	border: 1px black solid;
+	padding: 160px;
+}
+.green {
+	background-color: #8FADAC;
+	height:500px;
+	font-family: Raleway, sans-serif;
+	border: 1px black solid;
+	padding: 20px;
+}
+#two_column {
+	background-color: #8FADAC;
+    border: 1px black solid;
+    padding: 20px;
+    height:800px;
+	font-family: Raleway, sans-serif;
+}
+
+#column {
+	float: left;
+	width: 33.33%;
+	background-color: #E55B88;
+	border: 1px black solid;
+    padding: 20px;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.yellow {
+	height:400px;
+	font-family: Raleway, sans-serif;
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #8FADAC;
+}
+.blue {
+	height:400px;
+	font-family: Raleway, sans-serif;
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #8FADAC;
+}
+
