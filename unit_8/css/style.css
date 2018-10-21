@@ -7,13 +7,13 @@
 }
 
 body {
-	
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 	font-weight: normal; 
 	font-family: Raleway, sans-serif; 
+	font-size: 16px;
 }
 header {
 	height: 800px;
@@ -43,7 +43,7 @@ nav {
 }
 
 ul {
-	width: 50%;
+	width: 70%;
 	margin: auto;
 }
 a{
@@ -72,7 +72,6 @@ h2 {
 }
 p {
 	color: #191919;
-	font-style: 
 	font-size: 1em;
 		
 }
@@ -88,9 +87,7 @@ li {
 	color: #191919;
 	list-style-type: none;
 	padding: 0;
-	float:left;
   	font-size: 1em;
-  	width: 50%;
   	text-align: center;
 
 }
@@ -100,15 +97,14 @@ img {
 
 .red {
 	background-color: #8FADAC;
-	height:100px;
+	height: 100px;
 	font-family: Raleway, serif;
-	font-size:40px;
 	border: 1px black;
 	font-weight: bold;
 
 }
 .hero {
-	height: 500px;
+	height: 600px;
 	background-image: url('../images/picture1.jpg');
 	background-position: center;
 	background-size: cover;
@@ -156,6 +152,7 @@ img {
 	padding: 20px;
 	background-color: #8FADAC;
 	clear: both;
+
 }
 .blue {
 	height:100px;
@@ -175,7 +172,12 @@ img {
     padding: 20px;
     height: 400px;
 }
+
+
 @media only screen and (max-width: 800px) {
+	body {
+		border: 5px solid red;
+	}
 	h1, nav {
     display: block;
     text-align: center;
@@ -185,10 +187,13 @@ img {
   }
    h2 {
     font-size: 1em;
-    display: inline;
   }
-  p, ul {
-    margin: 1.8em .6em 0;
+  ul {
+  	width: 70%;
+  	outline-width: .5em;
+    padding: 0em;
+    height: 2em; 
+    line-height: .5em;
   }
   li {
     width: 70%;
@@ -206,4 +211,28 @@ img {
    #column {
 	float: left;
 	width: 80%; }
+
+	#two_column {
+		height: auto;
+	}
+	.column {
+		width: 100%;
+		height: auto;
+	}
+	.header {
+		height: 100%;
+	}
+	.red {
+		height: 200px;
+
+	}
+	.hero {
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		border: 3px solid green;
+	}
 }
